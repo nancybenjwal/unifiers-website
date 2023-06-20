@@ -1,9 +1,9 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import Nav from "react-bootstrap/Nav"
-import Navbar from "react-bootstrap/Navbar"
-import NavDropdown from "react-bootstrap/NavDropdown"
-import logoUnifiers from "../images/logoUnifiers.png"
+import * as React from "react";
+import { Link } from "gatsby";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import logoUnifiers from "../images/logoUnifiers.png";
 
 const Header = ({ siteTitle }) => (
   <>
@@ -23,9 +23,9 @@ const Header = ({ siteTitle }) => (
       >
         <Nav className="ml-auto">
           <Nav.Link href="/">home</Nav.Link>
-          <Nav.Link href="/education">education</Nav.Link>
-          <Nav.Link href="/skilling">skilling</Nav.Link>
-          <Nav.Link href="/consulting">consulting</Nav.Link>
+          <Nav.Link href="#education">education</Nav.Link>
+          <Nav.Link href="#skilling">skilling</Nav.Link>
+          <Nav.Link href="#consulting">consulting</Nav.Link>
           <Nav.Link href="/team">team</Nav.Link>
           {/* <NavDropdown title="team" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">team</NavDropdown.Item>
@@ -38,6 +38,6 @@ const Header = ({ siteTitle }) => (
       </Navbar.Collapse>
     </Navbar>
   </>
-)
+);
 
-export default Header
+export default Header;

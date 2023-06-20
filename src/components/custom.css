@@ -3,22 +3,28 @@
   color: #000000;
   text-transform: uppercase;
   margin-right: 30px;
+  border: 1px solid #fff;
 }
-
+.nav-link:hover {
+  border: 1px solid #75a55c;
+}
 /* hero section */
 .hero-section-text {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 56px;
+  font-size: 33px;
   line-height: 119%;
   text-transform: capitalize;
 }
-.hero-section {
-  height: calc(100vh - 170px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 119%;
+  text-transform: capitalize;
 }
 
 /* Our Members */
@@ -135,10 +141,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 60px;
+  line-height: 30px;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #b8b8b8;
+  /* text-transform: uppercase; */
 }
 .footer-col-first {
   font-style: normal;
@@ -146,7 +151,6 @@
   font-size: 22px;
   line-height: 180%;
   letter-spacing: 0.02em;
-  color: #000000;
 }
 .social-media-icons {
   margin-right: 16px;
@@ -232,7 +236,7 @@
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  max-width: 1550px;
+  max-width: 1640px;
 }
 .custom-container-navbar {
   --bs-gutter-x: 1.5rem;
@@ -242,7 +246,7 @@
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  max-width: 1750px;
+  max-width: 1850px;
 }
 .unifiers-work-partners-container {
   --bs-gutter-x: 1.5rem;
@@ -269,7 +273,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 50px;
   line-height: 70px;
   text-transform: capitalize;
   color: #000000;
@@ -279,7 +283,18 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 180%;
+  text-align: justify;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.common {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 180%;
   text-align: justify;
   letter-spacing: 0.02em;
@@ -294,4 +309,147 @@
   border: 2px solid rgb(146, 195, 126);
   text-align: center;
   margin: 0 auto;
+}
+
+/* .big-img {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../images/Hero-section/people-meeting-seminar-office-concept.jpg);
+} */
+/* .overlay { */
+/* position: absolute; */
+/* height: 100%;
+  width: 100%; */
+/* top: 0;
+  left: 0; */
+/* background: rgba(0, 0, 0, 0.45);
+  color: white; */
+/* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+/* } */
+
+.brands_list {
+  margin: 0;
+  font-size: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  /* justify-content: center; */
+}
+
+.brand_item {
+  padding: 15px;
+  background: #80808008;
+  text-align: center;
+  position: relative;
+  width: 12.33%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  margin: 16px;
+  border: 1px solid rgba(213, 217, 222, 0.6);
+  display: inline-flex;
+  justify-content: stretch;
+  align-items: stretch;
+  -webkit-transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
+  -moz-transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+img.brand_logo {
+  max-height: 8rem;
+  width: auto;
+  max-width: 100%;
+}
+h2.brand_logo {
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.brands_list_portal {
+  margin: 0px 0px 0px -13px;
+  font-size: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  /* justify-content: center; */
+}
+
+.brand_item_portal {
+  padding: 0px 11px;
+  background: linear-gradient(157.09deg, #77a762 14.85%, #b7ff98 112.89%);
+  border-radius: 11px;
+  width: 20.33%;
+  margin: 16px;
+  border: 1px solid rgba(213, 217, 222, 0.6);
+  display: inline-flex;
+  transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
+  height: 137.64px;
+}
+
+img.brand_logo_portal {
+  max-height: 8rem;
+  width: auto;
+  max-width: 100%;
+}
+h2.brand_logo_portal {
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.brands_list_portal_text {
+  margin: -20px 0px 0px -13px;
+  padding: 0;
+}
+
+.brand_item_portal_text {
+  padding: 0px 11px;
+  border-radius: 11px;
+  width: 20.33%;
+  margin: 16px;
+  display: inline-flex;
+  transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
+  height: 137.64px;
+}
+
+img.brand_logo_portal_text {
+  max-height: 8rem;
+  width: auto;
+  max-width: 100%;
+}
+/* h2.brand_logo_portal_text {
+  font-weight: 300;
+  line-height: 1.1;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+.hero-carousal {
+  width: 70%;
 }

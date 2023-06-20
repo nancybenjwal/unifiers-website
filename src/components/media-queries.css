@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
-  .footer-col-first {
-    font-size: 12px;
+  .brand_item {
+    width: 36.33%;
   }
   .unifiers-work-partner-subheading {
     font-size: 12px;
@@ -14,10 +14,33 @@
   .skilling-heading {
     font-size: 20px;
   }
+  .brand_item_portal {
+    width: 38.33%;
+  }
+  .hero-carousal {
+    width: 100%;
+  }
+  .brands_list_portal_text {
+    visibility: hidden;
+  }
 }
+/* @media (min-width: 768px) {
+  .hero-carousal {
+    width: 100%;
+  }
+} */
 @media (max-width: 1199.98px) {
   .hero-section-text {
     font-size: 52px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1388px) {
+  .brand_item_portal {
+    width: 14.33%;
+  }
+  .brand_item_portal_text {
+    width: 14.33%;
   }
 }
 
@@ -32,7 +55,10 @@
 
 @media (min-width: 625px) and (max-width: 965px) {
   .hero-section-text {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  .hero-carousal {
+    width: 80%;
   }
 }
 
