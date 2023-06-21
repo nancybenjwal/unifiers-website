@@ -8,7 +8,7 @@ import { teamImplementation } from "../data/team-data";
 export default function Team() {
   return (
     <>
-      <div className="custom-container">
+      <div className="custom-container px-2 px-sm-2 px-md-5 px-lg-5 px-xl-5">
         <div className="mt-5 pt-5">
           <div className="common-para mb-2 text-center">Get TO Know Us</div>
           <h2 className="common-sub-heading text-center">

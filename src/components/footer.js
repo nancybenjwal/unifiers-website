@@ -31,24 +31,24 @@ export default function Footer() {
         className="custom-container-navbar pb-4 mt-5 "
         style={{ background: "#78ba5a" }}
       >
-        <Row className="text-white px-5">
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-3 mt-4 pt-4">
+        <Row className="text-white px-2 px-sm-2 px-md-2 px-lg-2 px-xl-5 px-xxl-5">
+          <Col className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4 pt-4">
             <div className="footer-col-first">Address</div>
             <div className="footer-common-text">
-              Unifiers Social Ventures Pvt Ltd.
+              Unifiers Social Ventures Pvt. Ltd.
               <br />
               B-100, LGF, Sarvodya Enclave
               <br />
               New Delhi - 110017, India
               <br />
-              <a className="text-white" href="https://www.unifiers.in/">
+              {/* <a className="text-white" href="https://www.unifiers.in/">
                 Web: www.unifiers.in
-              </a>
+              </a> */}
               <br />
             </div>
           </Col>
 
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-3 mt-4 pt-4">
+          <Col className="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-6 col-xxl-4 mt-4 pt-4">
             <div className="footer-heading">
               <div className="footer-col-first">Contact Information</div>
             </div>
@@ -58,9 +58,9 @@ export default function Footer() {
               Email: support@unifiers.in
             </div>
           </Col>
-          <Col className="col-12 col-sm-12 col-md-6 col-lg-2 mt-4 pt-4 d-none d-sm-none d-md-none d-lg-block d-xl-block"></Col>
+          <Col className="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-6 col-xxl-1 mt-4 pt-4 d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block"></Col>
 
-          <Col className="col-12 col-sm-12 col-md-7 col-lg-3 mt-4 pt-4">
+          <Col className="col-12 col-sm-12 col-md-7 col-lg-3  col-xl-2 col-xxl-2 mt-4 pt-4">
             <div className="footer-heading">
               <div className="footer-col-first mb-2">Social Media</div>
             </div>
