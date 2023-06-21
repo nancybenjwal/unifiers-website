@@ -15,6 +15,24 @@ import {
 } from "../data/hero-section-data";
 
 export default function Hero() {
+  const responsiveWorkPartners = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 6,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 4,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2,
+    },
+  };
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -37,7 +55,7 @@ export default function Hero() {
   const responsiveOthers = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 1,
+      items: 3,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -56,12 +74,12 @@ export default function Hero() {
   return (
     <>
       <div className="custom-container">
-        <div className="py-5 mt-4">
+        <div className="pb-5">
           <div className="row py-5">
-            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 order-last order-sm-last order-md-last order-lg-last order-xl-first">
+            <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
               <div className="row">
-                <div className="col-md-9">
-                  <h1 className="hero-section-text pb-5 mb-5">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xxl-8">
+                  <h1 className="hero-section-text">
                     <span className="common-color">Unifiers </span> has been
                     <span className="common-color"> set up </span>
                     with this belive that people and ideas can make a beautiful
@@ -71,8 +89,8 @@ export default function Hero() {
               </div>
 
               <h1
-                className="hero-section-text pt-5"
-                style={{ color: "#BEBEBE" }}
+                className="hero-section-text"
+                style={{ color: "#BEBEBE", paddingTop: "20%" }}
               >
                 Our projects portals
               </h1>
@@ -82,7 +100,7 @@ export default function Hero() {
                     <>
                       <li className="brand_item_portal">
                         <h2 className="brand_logo_portal">
-                          <a title="" href="">
+                          <a title="" href={data.link} target="_blank">
                             <img
                               className="brand_logo_portal"
                               src={data.url}
@@ -103,9 +121,9 @@ export default function Hero() {
                       <li className="brand_item_portal_text">
                         <h2 className="brand_logo_portal_text">
                           <a
-                            title=""
+                            target="_blank"
                             style={{ color: "black", textDecoration: "none" }}
-                            href=""
+                            href={data.link}
                           >
                             <h6>{data.name}</h6>
                           </a>
@@ -116,8 +134,8 @@ export default function Hero() {
                 })}
               </ul>
             </div>
-            <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 order-first order-sm-first order-md-first order-lg-first order-xl-last">
-              <Carousel
+            <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+              {/* <Carousel
                 responsive={responsive}
                 arrows={true}
                 showDots={false}
@@ -130,13 +148,33 @@ export default function Hero() {
                 >
                   <img src={hero} className="img-fluid hero-carousal" />
                 </div>
+              </Carousel> */}
+              <Carousel
+                responsive={responsive}
+                arrows={true}
+                showDots={true}
+                infinite={true}
+                autoPlay={true}
+              >
+                {skilling.map((data) => {
+                  return (
+                    <div>
+                      <div className="card">
+                        <div className="card-body">
+                          <img src={data.url} className="img-fluid" />
+                        </div>
+                      </div>
+                      <p className="mb-5 text-center">{data.caption}</p>
+                    </div>
+                  );
+                })}
               </Carousel>
             </div>
           </div>
         </div>
 
         {/* ======================= Education ============================== */}
-        <div className="pt-3" id="education">
+        <div className="pt-0 pt-sm-0 pt-md-0 pt-lg-5 pt-xl-5" id="education">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
               <h1 className="heading">Education</h1>
@@ -171,7 +209,10 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="pt-5 mt-5" id="skilling">
+        <div
+          className="mt-5 pt-0 pt-sm-0 pt-md-0 pt-lg-5 pt-xl-5"
+          id="skilling"
+        >
           <div className="row">
             <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-last order-sm-last order-md-last order-lg-last order-xl-first">
               <Carousel
@@ -206,7 +247,10 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="pt-5 mt-5" id="consulting">
+        <div
+          className="mt-5 pt-0 pt-sm-0 pt-md-0 pt-lg-5 pt-xl-5"
+          id="consulting"
+        >
           <div className="row">
             <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <h1 className="heading">Consulting</h1>
@@ -243,12 +287,39 @@ export default function Hero() {
         </div>
 
         {/* =================== WORK PARTNERS ===================== */}
+        {/* <div className="row">
+          <div className="col-md-4">Government & Institutional</div>
+          <div className="col-md-8">
+            <Carousel
+              responsive={responsiveWorkPartners}
+              arrows={true}
+              showDots={true}
+              infinite={true}
+              autoPlay={true}
+            >
+              {governmentInstitutional.map((data) => {
+                return (
+                  <div>
+                    <div className="card">
+                      <div className="card-body">
+                        <img src={data.url} className="img-fluid" />
+                      </div>
+                    </div>
+                    <p className="mb-5 text-center">{data.caption}</p>
+                  </div>
+                );
+              })}
+            </Carousel>
+          </div>
+        </div> */}
         <div className="pt-5 mt-5">
-          <h1 className="hero-section-text">
+          <h1 className="heading text-center">
             Some of our <span className="common-color">work</span> partners
           </h1>
           <div className=" mt-5">
-            <h2 className="">Government & Institutional</h2>
+            <h2 className="second-heading text-center">
+              Government & Institutional
+            </h2>
 
             <ul className="brands_list">
               {governmentInstitutional.map((data) => {
@@ -266,7 +337,9 @@ export default function Hero() {
           </div>
           <div className="row align-items-center mt-5">
             <div className="col-md-12">
-              <h2 className="">Sector Skill Councils</h2>
+              <h2 className="second-heading text-center">
+                Sector Skill Councils
+              </h2>
             </div>
             <div className="col-md-12">
               <ul className="brands_list">
@@ -287,7 +360,7 @@ export default function Hero() {
 
           <div className="row align-items-center mt-5">
             <div className="col-md-12">
-              <h2 className="">Corporate</h2>
+              <h2 className="second-heading text-center">Corporate</h2>
             </div>
             <div className="col-md-12">
               <ul className="brands_list">

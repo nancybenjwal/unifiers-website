@@ -6,7 +6,7 @@
   border: 1px solid #fff;
 }
 .nav-link:hover {
-  border: 1px solid #75a55c;
+  border: 1px solid #78ba5a;
 }
 /* hero section */
 .hero-section-text {
@@ -339,7 +339,7 @@
   align-content: center;
   flex-wrap: wrap;
   align-items: stretch;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .brand_item {
@@ -391,11 +391,11 @@ h2.brand_logo {
 }
 
 .brand_item_portal {
-  padding: 0px 11px;
+  padding: 22px;
   background: linear-gradient(157.09deg, #77a762 14.85%, #b7ff98 112.89%);
   border-radius: 11px;
-  width: 20.33%;
-  margin: 16px;
+  width: 22.33%;
+  margin: 8px;
   border: 1px solid rgba(213, 217, 222, 0.6);
   display: inline-flex;
   transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);

@@ -1,4 +1,25 @@
+@media (min-width: 575.98px) and (max-width: 691px) {
+  .brand_item_portal {
+    width: 38.33%;
+  }
+  .brands_list_portal_text {
+    display: none;
+  }
+  .brands_list_portal {
+    justify-content: center;
+  }
+}
+
 @media (max-width: 575.98px) {
+  .second-heading {
+    font-size: 22px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .common {
+    font-size: 16px;
+  }
   .brand_item {
     width: 36.33%;
   }
@@ -21,7 +42,13 @@
     width: 100%;
   }
   .brands_list_portal_text {
-    visibility: hidden;
+    display: none;
+  }
+  .brands_list {
+    justify-content: center;
+  }
+  .brands_list_portal {
+    justify-content: center;
   }
 }
 /* @media (min-width: 768px) {
@@ -37,10 +64,10 @@
 
 @media (min-width: 1200px) and (max-width: 1388px) {
   .brand_item_portal {
-    width: 14.33%;
+    width: 21.33%;
   }
   .brand_item_portal_text {
-    width: 14.33%;
+    width: 18.33%;
   }
 }
 

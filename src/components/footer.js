@@ -28,8 +28,8 @@ export default function Footer() {
     <>
       {/* ===================Subscribe & get news updates==================== */}
       <div
-        className="custom-container-navbar pb-4 mt-5 pt-5"
-        style={{ background: "rgb(0 0 0 / 51%)" }}
+        className="custom-container-navbar pb-4 mt-5 "
+        style={{ background: "#78ba5a" }}
       >
         <Row className="text-white px-5">
           <Col className="col-12 col-sm-12 col-md-6 col-lg-3 mt-4 pt-4">
