@@ -73,12 +73,12 @@ export default function Hero() {
 
   return (
     <>
-      <div className="custom-container">
+      <div className="custom-container px-2 px-sm-2 px-md-5 px-lg-5 px-xl-5">
         <div className="pb-5">
           <div className="row py-5">
-            <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+            <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-11 col-xl-6">
               <div className="row">
-                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xxl-8">
+                <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8">
                   <h1 className="hero-section-text">
                     <span className="common-color">Unifiers </span> has been
                     <span className="common-color"> set up </span>
