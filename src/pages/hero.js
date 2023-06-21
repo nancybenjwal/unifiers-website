@@ -200,7 +200,12 @@ export default function Hero() {
                           <img src={data.url} className="img-fluid" />
                         </div>
                       </div>
-                      <p className="mb-5 text-center">{data.caption}</p>
+                      <h6
+                        style={{ height: "40px", fontSize: "13px" }}
+                        className="mb-5 px-3 text-center"
+                      >
+                        {data.caption}
+                      </h6>
                     </div>
                   );
                 })}
@@ -230,7 +235,12 @@ export default function Hero() {
                           <img src={data.url} className="img-fluid" />
                         </div>
                       </div>
-                      <p className="mb-5 text-center">{data.caption}</p>
+                      <h6
+                        style={{ height: "40px", fontSize: "13px" }}
+                        className="mb-5 px-3 text-center"
+                      >
+                        {data.caption}
+                      </h6>
                     </div>
                   );
                 })}
@@ -277,7 +287,12 @@ export default function Hero() {
                           <img src={data.url} className="img-fluid" />
                         </div>
                       </div>
-                      <p className="mb-5 text-center">{data.caption}</p>
+                      <h6
+                        style={{ height: "40px", fontSize: "13px" }}
+                        className="mb-5 px-3 text-center"
+                      >
+                        {data.caption}
+                      </h6>
                     </div>
                   );
                 })}
