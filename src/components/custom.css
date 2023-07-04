@@ -13,9 +13,15 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 33px;
+  font-size: 31px;
   line-height: 119%;
   text-transform: capitalize;
+}
+
+.caption-text {
+  height: 75px;
+  font-size: 18px;
+  padding-top: 3%;
 }
 
 .heading {
@@ -343,7 +349,7 @@
 }
 
 .brand_item {
-  padding: 15px;
+  padding: 6px;
   background: #80808008;
   text-align: center;
   position: relative;
@@ -351,7 +357,7 @@
   vertical-align: middle;
   box-sizing: border-box;
   text-transform: uppercase;
-  margin: 16px;
+  margin: 6px;
   border: 1px solid rgba(213, 217, 222, 0.6);
   display: inline-flex;
   justify-content: stretch;
@@ -363,7 +369,7 @@
 
 img.brand_logo {
   max-height: 8rem;
-  width: auto;
+  width: 85%;
   max-width: 100%;
 }
 h2.brand_logo {
@@ -391,12 +397,12 @@ h2.brand_logo {
 }
 
 .brand_item_portal {
-  padding: 22px;
-  background: linear-gradient(157.09deg, #77a762 14.85%, #b7ff98 112.89%);
+  padding: 16px;
+  /* background: linear-gradient(157.09deg, #77a762 14.85%, #b7ff98 112.89%); */
   border-radius: 11px;
   width: 22.33%;
   margin: 8px;
-  border: 1px solid rgba(213, 217, 222, 0.6);
+  border: 5px solid rgba(213, 217, 222, 0.6);
   display: inline-flex;
   transition: all 1s cubic-bezier(0.02, 0.01, 0.47, 1);
   height: 137.64px;

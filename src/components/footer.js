@@ -53,7 +53,7 @@ export default function Footer() {
               <div className="footer-col-first">Contact Information</div>
             </div>
             <div className="footer-common-text">
-              Phone: +91-11-41073077, +91-11-26562422
+              Phone: +91-11-41073077
               <br />
               Email: support@unifiers.in
             </div>

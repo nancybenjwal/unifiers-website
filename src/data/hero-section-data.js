@@ -14,11 +14,19 @@ import nine from "../images/9.jpg";
 import eleven from "../images/11.jpg";
 import ten from "../images/10.jpg";
 
-import IATRPortal from "../images/Hero-section/IATR.svg";
+import IATRPortal from "../images/logos/IATR.png";
 import ILSEF from "../images/Hero-section/ISLF.svg";
-import MIRRA from "../images/Hero-section/MIRRA.svg";
-import SKILLSTRAINER from "../images/Hero-section/SKILLS.svg";
-import indianEsg from "../images/Hero-section/ESG.svg";
+import MIRRA from "../images/logos/Mirra.png";
+import SKILLSTRAINER from "../images/logos/skillstrainer.png";
+import indianEsg from "../images/logos/logo.svg";
+import heroOne from "../images/Hero-section/hero1.png";
+import heroTwo from "../images/Hero-section/hero2.png";
+import skilling1 from "../images/skilling/skilling1.png";
+import skilling2 from "../images/skilling/skilling2.png";
+import skilling3 from "../images/skilling/skilling3.png";
+import skilling4 from "../images/skilling/skilling4.png";
+import skilling5 from "../images/skilling/skilling5.png";
+import skilling6 from "../images/skilling/skilling6.png";
 export const projectPortals = [
   {
     url: SKILLSTRAINER,
@@ -50,19 +58,19 @@ export const projectPortals = [
 export const education = [
   {
     url: one,
-    caption: "Holistic, Experiential & Project Based Learning ",
+    caption: "Skill/ Psychometric Test",
   },
   {
     url: two,
-    caption: "Multimedia/ AR/ VR Content & LMS",
+    caption: "STEM Labs for Schools",
   },
   {
     url: seven,
-    caption: "",
+    caption: "Career & Skills Wall",
   },
   {
     url: fifth,
-    caption: "",
+    caption: "Career Awareness Vans",
   },
   {
     url: four,
@@ -84,36 +92,49 @@ export const education = [
 
 export const educationConprehensive = [];
 
+export const heroSection = [
+  {
+    url: heroOne,
+    caption:
+      "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+  },
+  {
+    url: heroTwo,
+    caption: "Comprehensive Skill Awareness Program for School Children",
+  },
+];
+
 export const skilling = [
   {
-    url: eight,
-    caption: "Vocational Skilling & Livelihood Center of Excellence (CoEs)",
+    url: skilling1,
+    caption: "World Class Automotive Labs for Practical's",
   },
   {
-    url: nine,
-    caption:
-      "Skilling for 15+ Sectors and 150+ Job Roles across Manufacturing, Services and Agriculture ",
+    url: skilling2,
+    caption: "Women Livelihood Project near Bangalore Airport",
   },
-  // {
-  //   url: eleven,
-  //   caption: "Skilling for Jobs and Placement",
-  // },
-  // {
-  //   url: ten,
-  //   caption:
-  //     "Skilling for Self Employment,  Hand Holding & Micro Enterprise set up",
-  // },
+  {
+    url: skilling3,
+    caption: "Women Livelihood Project near Bangalore Airport",
+  },
+  {
+    url: skilling4,
+    caption: "Products made by Livelihood Project Group",
+  },
+  {
+    url: skilling5,
+    caption: "Training in Bee Keeping & Other Agri Activities",
+  },
 ];
 
 export const consulting = [
   {
     url: eight,
     caption:
-      "Advisory Services for setting up Corporate Vocational Training Centers ",
+      "Project Management Units (PMU's) to set up Skilling Corporate of Excellence (CoEs)",
   },
   {
-    url: nine,
-    caption:
-      "Skilling for 15+ Sectors and 150+ Job Roles across Manufacturing, Services and Agriculture ",
+    url: skilling6,
+    caption: "Research & Reports for critical areas ",
   },
 ];
