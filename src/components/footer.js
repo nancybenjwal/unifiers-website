@@ -61,10 +61,10 @@ export default function Footer() {
           <Col className="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-6 col-xxl-1 mt-4 pt-4 d-none d-sm-none d-md-none d-lg-none d-xl-none d-xxl-block"></Col>
 
           <Col className="col-12 col-sm-12 col-md-7 col-lg-3  col-xl-2 col-xxl-2 mt-4 pt-4">
-            <div className="footer-heading">
+            {/* <div className="footer-heading">
               <div className="footer-col-first mb-2">Social Media</div>
-            </div>
-            <div className="footer-common-text">
+            </div> */}
+            <div className="footer-common-text mt-2">
               <Row>
                 <Col className="col-3">
                   <a

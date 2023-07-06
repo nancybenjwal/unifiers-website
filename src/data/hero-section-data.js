@@ -58,7 +58,7 @@ export const projectPortals = [
 export const education = [
   {
     url: one,
-    caption: "Skill/ Psychometric Test",
+    caption: "Holistic, Experiential, Project Based Learning",
   },
   {
     url: two,
@@ -76,17 +76,17 @@ export const education = [
     url: four,
     caption: "Comprehensive Skills & Career Awareness Program ",
   },
-  {
-    url: two,
-    caption: "Comprehensive Skills & Career Awareness Program",
-  },
+  // {
+  //   url: two,
+  //   caption: "Comprehensive Skills & Career Awareness Program",
+  // },
   {
     url: three,
-    caption: "Comprehensive Skills & Career Awareness Program",
+    caption: "Skill/ Psychometric Test",
   },
   {
     url: sixth,
-    caption: "Comprehensive Skills & Career Awareness Program",
+    caption: "Digital Career Awareness Programs",
   },
 ];
 
@@ -106,6 +106,10 @@ export const heroSection = [
 
 export const skilling = [
   {
+    url: skilling3,
+    caption: "Livelihood Training & Social Enterprises",
+  },
+  {
     url: skilling1,
     caption: "World Class Automotive Labs for Practical's",
   },
@@ -113,28 +117,25 @@ export const skilling = [
     url: skilling2,
     caption: "Women Livelihood Project near Bangalore Airport",
   },
-  {
-    url: skilling3,
-    caption: "Women Livelihood Project near Bangalore Airport",
-  },
+
   {
     url: skilling4,
     caption: "Products made by Livelihood Project Group",
   },
   {
     url: skilling5,
-    caption: "Training in Bee Keeping & Other Agri Activities",
+    caption: "Training in Agriculture & Allied Areas",
   },
 ];
 
 export const consulting = [
   {
+    url: skilling6,
+    caption: "Indian & International Research and Consulting Projects",
+  },
+  {
     url: eight,
     caption:
       "Project Management Units (PMU's) to set up Skilling Corporate of Excellence (CoEs)",
-  },
-  {
-    url: skilling6,
-    caption: "Research & Reports for critical areas ",
   },
 ];

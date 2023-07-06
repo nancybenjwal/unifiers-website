@@ -10,23 +10,22 @@ export default function Team() {
     <>
       <div className="custom-container px-2 px-sm-2 px-md-5 px-lg-5 px-xl-5">
         <div className="mt-5 pt-5">
-          <div className="common-para mb-2 text-center">Get To Know Us</div>
+          {/* <div className="common-para mb-2 text-center">Get To Know Us</div> */}
           <h2 className="common-sub-heading text-center">
-            Meat the <span className="common-color">team</span> behind it all
+            <span className="common-color">Unifiers Team</span>
           </h2>
           <div className="row">
-            <div className="col-12 col-md-3"></div>
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-2"></div>
+            <div className="col-12 col-md-8">
               <div className="common-para mt-4">
                 Unifiers team consists of professionals recognized for their
                 contributions in the field of human resource development and
                 vocational training. The key team of Unifiers has conceptualized
                 and implemented some of the largest mandates in the Social
-                Infrastructure space in the country. With a team of over 50 team
-                members
+                Infrastructure space in the country.
               </div>
             </div>
-            <div className="col-12 col-md-3"></div>
+            <div className="col-12 col-md-2"></div>
           </div>
         </div>
 
@@ -67,7 +66,6 @@ export default function Team() {
 
         <div className="">
           <div className="mt-5 pt-5">
-            <h2 className="common-sub-heading">Team</h2>
             <h2 className="common-sub-heading">
               <span className="common-color">
                 Strategic Investors & Advisors
@@ -86,6 +84,9 @@ export default function Team() {
                           <div className="col-10">
                             <div className="">{data.name}</div>
                           </div>
+                          {!data.social_media_icons && (
+                            <div className="mt-3"></div>
+                          )}
                           {data.social_media_icons && (
                             <div className="col-2">
                               <a href={data.social_media_icons} target="_blank">
@@ -154,6 +155,9 @@ export default function Team() {
                           <div className="col-10">
                             <div className="">{data.name}</div>
                           </div>
+                          {!data.social_media_icons && (
+                            <div className="mt-3"></div>
+                          )}
                           {data.social_media_icons && (
                             <div className="col-2">
                               <a href={data.social_media_icons} target="_blank">

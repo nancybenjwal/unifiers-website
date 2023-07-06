@@ -14,6 +14,7 @@ import {
   consulting,
   heroSection,
 } from "../data/hero-section-data";
+import Team from "./team";
 
 export default function Hero() {
   const responsiveWorkPartners = {
@@ -81,12 +82,12 @@ export default function Hero() {
               <div className="row">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8">
                   <h1 className="hero-section-text">
-                    <span className="common-color">Unifiers </span> has been
-                    <span className="common-color"> set up </span>
-                    <br />
+                    <span className="common-color">Unifiers </span> has been set
+                    up <br />
                     with this belive that <br />
-                    people and ideas
-                    <br /> can make a{" "}
+                    <span className="common-color">people </span>and
+                    <span className="common-color"> ideas</span>
+                    <br /> can make a
                     <span className="common-color"> beautiful world</span>.
                   </h1>
                 </div>
@@ -117,31 +118,11 @@ export default function Hero() {
                   );
                 })}
               </ul>
-
-              <ul className="brands_list_portal_text">
-                {projectPortals.map((data) => {
-                  return (
-                    <>
-                      <li className="brand_item_portal_text">
-                        <h2 className="brand_logo_portal_text">
-                          <a
-                            target="_blank"
-                            style={{ color: "black", textDecoration: "none" }}
-                            href={data.link}
-                          >
-                            <h6>{data.name}</h6>
-                          </a>
-                        </h2>
-                      </li>
-                    </>
-                  );
-                })}
-              </ul>
             </div>
             <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
               <Carousel
                 responsive={responsive}
-                arrows={true}
+                arrows={false}
                 showDots={true}
                 infinite={true}
                 autoPlay={true}
@@ -185,9 +166,9 @@ export default function Hero() {
             <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Carousel
                 responsive={responsiveOthers}
-                arrows={true}
+                arrows={false}
                 showDots={true}
-                infinite={true}
+                infinite={false}
                 autoPlay={true}
               >
                 {education.map((data) => {
@@ -219,9 +200,9 @@ export default function Hero() {
             <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6 order-last order-sm-last order-md-last order-lg-last order-xl-first">
               <Carousel
                 responsive={responsiveOthers}
-                arrows={true}
+                arrows={false}
                 showDots={true}
-                infinite={true}
+                infinite={false}
                 autoPlay={true}
               >
                 {skilling.map((data) => {
@@ -246,10 +227,10 @@ export default function Hero() {
               <div className="common">
                 Connecting <span className="common-color">Youth</span> to
                 existing & emerging <br />
-                <span className="common-color">Jobs</span> and Self Employment
-                opportunities Connecting Youth to existing & emerging Jobs and{" "}
-                <span className="common-color">Self Employment</span>
-                opportunities
+                <span className="common-color">Jobs</span> and{" "}
+                <span className="common-color">Self Employment </span>
+                opportunities <br />
+                Connecting Youth to existing & emerging Jobs.
               </div>
             </div>
           </div>
@@ -329,7 +310,7 @@ export default function Hero() {
         </div> */}
         <div className="pt-5 mt-5">
           <h1 className="heading text-center">
-            Some of our <span className="common-color">work</span> partners
+            Some of our <span className="common-color">work partners</span>
           </h1>
           <div className="mt-4">
             <h2 className="second-heading text-center">
@@ -394,6 +375,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+        {/* team */}
+        <Team />
       </div>
     </>
   );
