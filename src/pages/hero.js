@@ -81,14 +81,15 @@ export default function Hero() {
             <div className="mt-5 pt-5 col-12 col-sm-12 col-md-12 col-lg-11 col-xl-6">
               <div className="row">
                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-8">
-                  <h1 className="hero-section-text">
+                  <h1 className="hero-section-text-hero">
                     <span className="common-color">Unifiers </span> has been set
-                    up <br />
-                    with this belive that <br />
-                    <span className="common-color">people </span>and
-                    <span className="common-color"> ideas</span>
+                    up
+                    <br />
+                    with this Belief that <br />
+                    <span className="common-color">People </span>and
+                    <span className="common-color"> Ideas</span>
                     <br /> can make a
-                    <span className="common-color"> beautiful world</span>.
+                    <span className="common-color"> Beautiful World</span>.
                   </h1>
                 </div>
               </div>
@@ -258,9 +259,9 @@ export default function Hero() {
             <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Carousel
                 responsive={responsiveOthers}
-                arrows={true}
+                arrows={false}
                 showDots={true}
-                infinite={true}
+                infinite={false}
                 autoPlay={true}
               >
                 {consulting.map((data) => {

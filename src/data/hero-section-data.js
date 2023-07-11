@@ -21,12 +21,17 @@ import SKILLSTRAINER from "../images/logos/skillstrainer.png";
 import indianEsg from "../images/logos/logo.svg";
 import heroOne from "../images/Hero-section/hero1.png";
 import heroTwo from "../images/Hero-section/hero2.png";
+import heroThree from "../images/Hero-section/55.jpg";
+import heroFour from "../images/Hero-section/56.jpg";
 import skilling1 from "../images/skilling/skilling1.png";
 import skilling2 from "../images/skilling/skilling2.png";
 import skilling3 from "../images/skilling/skilling3.png";
 import skilling4 from "../images/skilling/skilling4.png";
 import skilling5 from "../images/skilling/skilling5.png";
 import skilling6 from "../images/skilling/skilling6.png";
+import skilling7 from "../images/skilling/skilling7.jpg";
+import skilling8 from "../images/skilling/skilling8.jpg";
+import skilling9 from "../images/skilling/skilling9.jpg";
 export const projectPortals = [
   {
     url: SKILLSTRAINER,
@@ -102,6 +107,14 @@ export const heroSection = [
     url: heroTwo,
     caption: "Comprehensive Skill Awareness Program for School Children",
   },
+  {
+    url: heroThree,
+    caption: "Operate one of the largest Automotive Skilling Center",
+  },
+  {
+    url: heroFour,
+    caption: "Operate one the largest Footwear Sector Skilling Center",
+  },
 ];
 
 export const skilling = [
@@ -110,8 +123,8 @@ export const skilling = [
     caption: "Livelihood Training & Social Enterprises",
   },
   {
-    url: skilling1,
-    caption: "World Class Automotive Labs for Practical's",
+    url: skilling7,
+    caption: "World Class Automotive Labs for Skill Practicals",
   },
   {
     url: skilling2,
@@ -125,6 +138,14 @@ export const skilling = [
   {
     url: skilling5,
     caption: "Training in Agriculture & Allied Areas",
+  },
+  {
+    url: skilling8,
+    caption: "Livelihood Program - Women making Fruit Juice",
+  },
+  {
+    url: skilling9,
+    caption: "Branding of Livelihood Products",
   },
 ];
 

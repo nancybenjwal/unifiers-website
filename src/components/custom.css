@@ -17,6 +17,13 @@
   line-height: 119%;
   text-transform: capitalize;
 }
+.hero-section-text-hero {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 119%;
+}
 
 .caption-text {
   height: 75px;
