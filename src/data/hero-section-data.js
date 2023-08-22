@@ -32,6 +32,9 @@ import skilling6 from "../images/skilling/skilling6.png";
 import skilling7 from "../images/skilling/skilling7.jpg";
 import skilling8 from "../images/skilling/skilling8.jpg";
 import skilling9 from "../images/skilling/skilling9.jpg";
+import ed1 from "../images/edtech/ed1.png";
+import ed2 from "../images/edtech/ed2.png";
+
 export const projectPortals = [
   {
     url: SKILLSTRAINER,
@@ -85,10 +88,10 @@ export const education = [
   //   url: two,
   //   caption: "Comprehensive Skills & Career Awareness Program",
   // },
-  {
-    url: three,
-    caption: "Skill/ Psychometric Test",
-  },
+  // {
+  //   url: three,
+  //   caption: "Skill/ Psychometric Test",
+  // },
   {
     url: sixth,
     caption: "Digital Career Awareness Programs",
@@ -146,6 +149,26 @@ export const skilling = [
   {
     url: skilling9,
     caption: "Branding of Livelihood Products",
+  },
+];
+
+export const edTech = [
+  {
+    url: heroOne,
+    caption:
+      "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+  },
+  {
+    url: ed1,
+    caption: "Developed 150+ Digital Courses",
+  },
+  {
+    url: ed2,
+    caption: "50,000+ Hours of Learning Content",
+  },
+  {
+    url: three,
+    caption: "Skill/ Psychometric Test",
   },
 ];
 

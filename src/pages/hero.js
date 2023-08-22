@@ -13,6 +13,7 @@ import {
   skilling,
   consulting,
   heroSection,
+  edTech,
 } from "../data/hero-section-data";
 import Team from "./team";
 
@@ -237,6 +238,50 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* ================================== EDTECH =================== */}
+
+        <div className="mt-5 pt-0 pt-sm-0 pt-md-0 pt-lg-5 pt-xl-5" id="edtech">
+          <div className="row">
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+              <h1 className="heading">EdTech</h1>
+
+              <div className="common">
+                Building{" "}
+                <span className="common-color">Educational Technologies </span>
+                <br />
+                for learners across the spectrum <br />
+                <span className="common-color">
+                  - Childeren, Youth, & Adults
+                </span>
+              </div>
+            </div>
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+              <Carousel
+                responsive={responsiveOthers}
+                arrows={false}
+                showDots={true}
+                infinite={false}
+                autoPlay={true}
+              >
+                {edTech.map((data) => {
+                  return (
+                    <div>
+                      <div className="card">
+                        <div className="card-body">
+                          <img src={data.url} className="img-fluid" />
+                        </div>
+                      </div>
+                      <h6 className="mb-5 px-3 text-center caption-text">
+                        {data.caption}
+                      </h6>
+                    </div>
+                  );
+                })}
+              </Carousel>
+            </div>
+          </div>
+        </div>
+
         {/* =================== CONSULTING ================================ */}
 
         <div
@@ -244,19 +289,7 @@ export default function Hero() {
           id="consulting"
         >
           <div className="row">
-            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-              <h1 className="heading">Consulting</h1>
-
-              <div className="common">
-                Working with Public Sector, Corporate and Social <br />
-                Sector Partners to make{" "}
-                <span className="common-color">Transformational</span>{" "}
-                Education, <br />
-                Skilling & Capacity Building{" "}
-                <span className="common-color">Plans</span>
-              </div>
-            </div>
-            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-last order-sm-last order-md-last order-lg-last order-xl-first">
               <Carousel
                 responsive={responsiveOthers}
                 arrows={false}
@@ -279,6 +312,18 @@ export default function Hero() {
                   );
                 })}
               </Carousel>
+            </div>
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-first order-sm-first order-md-first order-lg-first order-xl-last">
+              <h1 className="heading">Consulting</h1>
+
+              <div className="common">
+                Working with Public Sector, Corporate and Social <br />
+                Sector Partners to make{" "}
+                <span className="common-color">Transformational</span>{" "}
+                Education, <br />
+                Skilling & Capacity Building{" "}
+                <span className="common-color">Plans</span>
+              </div>
             </div>
           </div>
         </div>

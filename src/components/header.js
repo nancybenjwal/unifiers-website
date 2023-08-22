@@ -25,23 +25,16 @@ const Header = ({ siteTitle }) => {
         >
           <Nav className="ml-auto">
             <Nav.Link href="/">home</Nav.Link>
-            {location.pathname === "/team/" ? (
-              <Nav.Link href="/">education</Nav.Link>
-            ) : (
-              <Nav.Link href="#education">education</Nav.Link>
-            )}
-            {location.pathname === "/team/" ? (
-              <Nav.Link href="/">skilling</Nav.Link>
-            ) : (
-              <Nav.Link href="#skilling">skilling</Nav.Link>
-            )}
-            {location.pathname === "/team/" ? (
-              <Nav.Link href="/">consulting</Nav.Link>
-            ) : (
-              <Nav.Link href="#consulting">consulting</Nav.Link>
-            )}
 
-            <Nav.Link href="/team">team</Nav.Link>
+            <Nav.Link href="#education">education</Nav.Link>
+
+            <Nav.Link href="#skilling">skilling</Nav.Link>
+
+            <Nav.Link href="#edtech">edtech</Nav.Link>
+
+            <Nav.Link href="#consulting">consulting</Nav.Link>
+
+            <Nav.Link href="#team">team</Nav.Link>
 
             {/* <NavDropdown title="team" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">team</NavDropdown.Item>
