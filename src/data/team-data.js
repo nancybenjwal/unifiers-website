@@ -7,6 +7,7 @@ import Gautam from "../images/team/Gautam.jpg";
 import Raman from "../images/team/RamanSharma.png";
 import Alok from "../images/team/alock.jpg";
 import Shivek from "../images/team/shivekkhurana.jpg";
+import rajDavid from "../images/team/rajDavid.png";
 import vikrant from "../images/team/VikrantAbrol.jpeg";
 import abhi from "../images/team/abhi.jpeg";
 import sharukh from "../images/team/sharukh.jpg";
@@ -62,6 +63,13 @@ export const teamImplementation = [
     designation_at_unifiers: "Tech Advisor",
     social_media_icons:
       "https://www.linkedin.com/in/shivekkhurana/?originalSubdomain=in",
+  },
+  {
+    name: "Dr Raj Dravid",
+    img: rajDavid,
+    designation: "Senior Advisor - International Business",
+    designation_at_unifiers: "Advisor - Grant Thornton India",
+    social_media_icons: "https://www.linkedin.com/in/dr-raj-dravid-2b247583/",
   },
 ];
 
