@@ -31,6 +31,9 @@ const Header = ({ siteTitle }) => {
             <Nav.Link href="#skilling">skilling</Nav.Link>
 
             <Nav.Link href="#edtech">edtech</Nav.Link>
+            <Nav.Link href="#internationalPlacements">
+              international placements
+            </Nav.Link>
 
             <Nav.Link href="#consulting">consulting</Nav.Link>
 

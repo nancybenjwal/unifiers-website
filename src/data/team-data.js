@@ -16,6 +16,7 @@ import anupama from "../images/team/Anupama.jpg";
 import defaultImg from "../images/team/Default.png";
 import rachna from "../images/team/rachna.png";
 import amit from "../images/team/amit.png";
+import dharmendra from "../images/team/dharmendra.png";
 
 export const teamImplementation = [
   {
@@ -95,11 +96,13 @@ export const teamStrategic = [
     social_media_icons: "https://www.linkedin.com/in/aayushijauhari/",
   },
   {
-    name: "Mr. Amit Upadhaya",
-    img: amit,
-    designation: "Operations Lead - North India",
-    // social_media_icons: "https://www.linkedin.com/in/aayushijauhari/",
+    name: "Mr. Dharmendra Sharma",
+    img: dharmendra,
+    designation: "Global Head - XA Manpower",
+    social_media_icons:
+      "https://www.linkedin.com/in/dharmendra-sharma-a1570225/?originalSubdomain=in",
   },
+
   {
     name: "Ms. Anupama Jain",
     img: anupama,
@@ -118,5 +121,11 @@ export const teamStrategic = [
     designation: "Tech Lead",
     social_media_icons:
       "https://www.linkedin.com/in/abhishek-challa-434a14190/",
+  },
+  {
+    name: "Mr. Amit Upadhaya",
+    img: amit,
+    designation: "Operations Lead - North India",
+    // social_media_icons: "https://www.linkedin.com/in/aayushijauhari/",
   },
 ];

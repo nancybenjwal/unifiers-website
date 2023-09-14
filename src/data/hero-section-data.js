@@ -5,9 +5,9 @@ import logo from "../images/logos/logo.svg";
 import one from "../images/1.jpg";
 import two from "../images/2.jpg";
 import seven from "../images/7.jpg";
-import fifth from "../images/5.jpg";
+import fifth from "../images/5.png";
 import four from "../images/4.jpg";
-import three from "../images/3.jpg";
+import three from "../images/3.png";
 import sixth from "../images/6.jpg";
 import eight from "../images/8.jpg";
 import nine from "../images/9.jpg";
@@ -20,7 +20,7 @@ import MIRRA from "../images/logos/Mirra.png";
 import SKILLSTRAINER from "../images/logos/skillstrainer.png";
 import indianEsg from "../images/logos/logo.svg";
 import heroOne from "../images/Hero-section/hero1.png";
-import heroTwo from "../images/Hero-section/hero2.png";
+import heroTwo from "../images/Hero-section/hero2-2.png";
 import heroThree from "../images/Hero-section/55.jpg";
 import heroFour from "../images/Hero-section/56.jpg";
 import skilling1 from "../images/skilling/skilling1.png";
@@ -34,6 +34,8 @@ import skilling8 from "../images/skilling/skilling8.jpg";
 import skilling9 from "../images/skilling/skilling9.jpg";
 import ed1 from "../images/edtech/ed1.png";
 import ed2 from "../images/edtech/ed2.png";
+import placements from "../images/22.png";
+import placements2 from "../images/23.png";
 
 export const projectPortals = [
   {
@@ -169,6 +171,18 @@ export const edTech = [
   {
     url: three,
     caption: "Skill/ Psychometric Test",
+  },
+];
+
+export const internationalPlacements = [
+  {
+    url: placements,
+    // caption:
+    //   "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+  },
+  {
+    url: placements2,
+    // caption: "Developed 150+ Digital Courses",
   },
 ];
 

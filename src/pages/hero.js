@@ -14,6 +14,7 @@ import {
   consulting,
   heroSection,
   edTech,
+  internationalPlacements,
 } from "../data/hero-section-data";
 import Team from "./team";
 
@@ -227,8 +228,8 @@ export default function Hero() {
               <h1 className="heading">Skilling</h1>
 
               <div className="common">
-                Connecting <span className="common-color">Youth</span> to
-                existing & emerging <br />
+                Connecting <span className="common-color"> Youth</span> to
+                existing & emerging
                 <span className="common-color">Jobs</span> and{" "}
                 <span className="common-color">Self Employment </span>
                 opportunities <br />
@@ -282,6 +283,52 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* ================================== INTERNATIONAL PLACEMENTS =================== */}
+
+        <div
+          className="mt-5 pt-0 pt-sm-0 pt-md-0 pt-lg-5 pt-xl-5"
+          id="internationalPlacements"
+        >
+          <div className="row">
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+              <Carousel
+                responsive={responsiveOthers}
+                arrows={false}
+                showDots={true}
+                infinite={false}
+                autoPlay={true}
+              >
+                {internationalPlacements.map((data) => {
+                  return (
+                    <div>
+                      <div className="card">
+                        <div className="card-body">
+                          <img src={data.url} className="img-fluid" />
+                        </div>
+                      </div>
+                      <h6 className="mb-5 px-3 text-center caption-text">
+                        {data.caption}
+                      </h6>
+                    </div>
+                  );
+                })}
+              </Carousel>
+            </div>
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6">
+              <h1 className="heading">International Placements</h1>
+
+              <div className="common">
+                Connecting
+                <span className="common-color"> Indian Youth</span>
+                <br />
+                to the
+                <span className="common-color"> Global Job </span>
+                opportunities
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* =================== CONSULTING ================================ */}
 
         <div
@@ -290,6 +337,18 @@ export default function Hero() {
         >
           <div className="row">
             <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-last order-sm-last order-md-last order-lg-last order-xl-first">
+              <h1 className="heading">Consulting</h1>
+
+              <div className="common">
+                Working with Public Sector, Corporate and Social <br />
+                Sector Partners to make{" "}
+                <span className="common-color">Transformational</span>{" "}
+                Education, <br />
+                Skilling & Capacity Building{" "}
+                <span className="common-color">Plans</span>
+              </div>
+            </div>
+            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-first order-sm-first order-md-first order-lg-first order-xl-last">
               <Carousel
                 responsive={responsiveOthers}
                 arrows={false}
@@ -312,18 +371,6 @@ export default function Hero() {
                   );
                 })}
               </Carousel>
-            </div>
-            <div className="mt-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-first order-sm-first order-md-first order-lg-first order-xl-last">
-              <h1 className="heading">Consulting</h1>
-
-              <div className="common">
-                Working with Public Sector, Corporate and Social <br />
-                Sector Partners to make{" "}
-                <span className="common-color">Transformational</span>{" "}
-                Education, <br />
-                Skilling & Capacity Building{" "}
-                <span className="common-color">Plans</span>
-              </div>
             </div>
           </div>
         </div>
