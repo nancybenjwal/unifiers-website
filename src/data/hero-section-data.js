@@ -32,8 +32,8 @@ import skilling6 from "../images/skilling/skilling6.png";
 import skilling7 from "../images/skilling/skilling7.jpg";
 import skilling8 from "../images/skilling/skilling8.jpg";
 import skilling9 from "../images/skilling/skilling9.jpg";
-import ed1 from "../images/edtech/ed1.png";
-import ed2 from "../images/edtech/ed2.png";
+import ed1 from "../images/edtech/ed2.png";
+import ed2 from "../images/edtech/ed1.png";
 import placements from "../images/22.png";
 import placements2 from "../images/23.png";
 
@@ -177,12 +177,11 @@ export const edTech = [
 export const internationalPlacements = [
   {
     url: placements,
-    // caption:
-    //   "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+    caption: "Current Focus Regions: Gulf, Australia & Europe",
   },
   {
     url: placements2,
-    // caption: "Developed 150+ Digital Courses",
+    caption: "Connecting Skilled Manpower across the World",
   },
 ];
 

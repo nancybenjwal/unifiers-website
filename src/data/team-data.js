@@ -98,7 +98,7 @@ export const teamStrategic = [
   {
     name: "Mr. Dharmendra Sharma",
     img: dharmendra,
-    designation: "Global Head - XA Manpower",
+    designation: "Lead - International Business",
     social_media_icons:
       "https://www.linkedin.com/in/dharmendra-sharma-a1570225/?originalSubdomain=in",
   },

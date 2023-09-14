@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => {
       <Navbar
         collapseOnSelect
         expand="md"
-        bg="white"
+        bg="light"
         className="custom-container-navbar sticky-top"
       >
         <Navbar.Brand href="#home">
