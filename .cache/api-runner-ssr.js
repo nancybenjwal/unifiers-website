@@ -1,4 +1,8 @@
 var plugins = [{
+      name: 'gatsby-plugin-google-gtag',
+      plugin: require('/home/unifiers/unifiers/unifiers-website/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
+      options: {"plugins":[],"trackingIds":["G-JJK2XNKJNW"],"pluginConfig":{"head":true,"anonymize_ip":true}},
+    },{
       name: 'gatsby-plugin-image',
       plugin: require('/home/unifiers/unifiers/unifiers-website/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},

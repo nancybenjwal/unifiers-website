@@ -16,6 +16,18 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-JJK2XNKJNW", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          head: true,
+          anonymize_ip: true,
+        },
+      },
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

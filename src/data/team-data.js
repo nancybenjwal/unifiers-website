@@ -17,6 +17,9 @@ import defaultImg from "../images/team/Default.png";
 import rachna from "../images/team/rachna.png";
 import amit from "../images/team/amit.png";
 import dharmendra from "../images/team/dharmendra.png";
+import sidharth from "../images/team/sidharth.jpg";
+import Shilpi from "../images/team/Shilpi.jpg";
+import puneeta from "../images/team/puneeta.jpg";
 
 export const teamImplementation = [
   {
@@ -121,6 +124,25 @@ export const teamStrategic = [
     designation: "Tech Lead",
     social_media_icons:
       "https://www.linkedin.com/in/abhishek-challa-434a14190/",
+  },
+  {
+    name: "Mr. Siddhartha Singh",
+    img: sidharth,
+    designation: "Lead - International Business (Europe)",
+    social_media_icons: "",
+  },
+  {
+    name: "Ms. Shilpi Banerjee",
+    img: Shilpi,
+    designation: "",
+    social_media_icons:
+      "https://www.linkedin.com/in/shilpi-banerjee-09560117b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "CA. Puneeta Puri",
+    img: puneeta,
+    designation: "Executive Director - Indian ESG Network",
+    social_media_icons: "https://www.linkedin.com/in/ca-puneeta-puri-35208b9/",
   },
   {
     name: "Mr. Amit Upadhaya",

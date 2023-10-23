@@ -32,6 +32,8 @@ import skilling6 from "../images/skilling/skilling6.png";
 import skilling7 from "../images/skilling/skilling7.jpg";
 import skilling8 from "../images/skilling/skilling8.jpg";
 import skilling9 from "../images/skilling/skilling9.jpg";
+import con2 from "../images/skilling/2.png";
+import con1 from "../images/skilling/3.png";
 import ed1 from "../images/edtech/ed2.png";
 import ed2 from "../images/edtech/ed1.png";
 import placements from "../images/22.png";
@@ -194,5 +196,15 @@ export const consulting = [
     url: eight,
     caption:
       "Project Management Units (PMU's) to set up Skilling Corporate of Excellence (CoEs)",
+  },
+  {
+    url: con2,
+    caption:
+      "Human Capacity Development Strategies for Agriculture Sector in Somalia - Study with SATG & DT Global",
+  },
+  {
+    url: con1,
+    caption:
+      "Improve the Quality of Life of People of Africa - African Development Bank Study",
   },
 ];
