@@ -24,6 +24,8 @@ import heroTwo from "../images/Hero-section/new2.png";
 import heroThree from "../images/Hero-section/new3.png";
 import heroFour from "../images/Hero-section/new4.png";
 import heroFive from "../images/Hero-section/new7.png";
+import heroSix from "../images/Hero-section/new5.png";
+import heroSeven from "../images/Hero-section/new6.png";
 import skilling1 from "../images/skilling/skilling1.png";
 import skilling2 from "../images/skilling/skilling2.png";
 import skilling3 from "../images/skilling/skilling3.png";
@@ -130,9 +132,22 @@ export const heroSection = [
     // caption: "Operate one the largest Footwear Sector Skilling Center",
   },
   {
+    url: heroSix,
+    caption: "Livelihood Training & Social Enterprises",
+  },
+  {
+    url: heroSeven,
+    caption: "Connecting Skilled Manpower across the World",
+  },
+  {
     url: heroFive,
     caption: "Operate one of the largest Automotive Skilling Center",
     // caption: "Operate one the largest Footwear Sector Skilling Center",
+  },
+  {
+    url: placements1,
+    caption:
+      "Unifiers: Australia Skilled Migrations’s (ASM) Exclusive Partner in India & SAARC Countries",
   },
 ];
 
