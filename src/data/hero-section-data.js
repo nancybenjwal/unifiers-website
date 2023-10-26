@@ -19,10 +19,11 @@ import ILSEF from "../images/Hero-section/ISLF.svg";
 import MIRRA from "../images/logos/Mirra.png";
 import SKILLSTRAINER from "../images/logos/skillstrainer.png";
 import indianEsg from "../images/logos/logo.svg";
-import heroOne from "../images/Hero-section/hero1.png";
-import heroTwo from "../images/Hero-section/hero2-2.png";
-import heroThree from "../images/Hero-section/55.jpg";
-import heroFour from "../images/Hero-section/56.jpg";
+import heroOne from "../images/Hero-section/new1.png";
+import heroTwo from "../images/Hero-section/new2.png";
+import heroThree from "../images/Hero-section/new3.png";
+import heroFour from "../images/Hero-section/new4.png";
+import heroFive from "../images/Hero-section/new7.png";
 import skilling1 from "../images/skilling/skilling1.png";
 import skilling2 from "../images/skilling/skilling2.png";
 import skilling3 from "../images/skilling/skilling3.png";
@@ -36,6 +37,7 @@ import con2 from "../images/skilling/2.png";
 import con1 from "../images/skilling/3.png";
 import ed1 from "../images/edtech/ed2.png";
 import ed2 from "../images/edtech/ed1.png";
+import placements1 from "../images/Hero-section/IN.png";
 import placements from "../images/22.png";
 import placements2 from "../images/23.png";
 
@@ -108,19 +110,29 @@ export const heroSection = [
   {
     url: heroOne,
     caption:
-      "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+      "Unifiers: Aligning all our work to UN's Sustainable Development Goals",
+    // caption:
+    //   "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
   },
   {
     url: heroTwo,
-    caption: "Comprehensive Skill Awareness Program for School Children",
+    caption:
+      "SkillsTrainer.in - India's first and World's largest Vocational Skilling LMS",
+    // caption: "Comprehensive Skill Awareness Program for School Children",
   },
   {
     url: heroThree,
-    caption: "Operate one of the largest Automotive Skilling Center",
+    caption: "Comprehensive Skill Awareness Program for School Children",
   },
   {
     url: heroFour,
-    caption: "Operate one the largest Footwear Sector Skilling Center",
+    caption: "Operate one of the largest Automotive Skilling Center",
+    // caption: "Operate one the largest Footwear Sector Skilling Center",
+  },
+  {
+    url: heroFive,
+    caption: "Operate one of the largest Automotive Skilling Center",
+    // caption: "Operate one the largest Footwear Sector Skilling Center",
   },
 ];
 
@@ -177,6 +189,11 @@ export const edTech = [
 ];
 
 export const internationalPlacements = [
+  {
+    url: placements1,
+    caption:
+      "Unifiers: Australia Skilled Migrations’s (ASM) Exclusive Partner in India & SAARC Countries",
+  },
   {
     url: placements,
     caption: "Current Focus Regions: Gulf, Australia & Europe",

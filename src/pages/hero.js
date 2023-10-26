@@ -295,7 +295,7 @@ export default function Hero() {
                 responsive={responsiveOthers}
                 arrows={false}
                 showDots={true}
-                infinite={false}
+                infinite={true}
                 autoPlay={true}
               >
                 {internationalPlacements.map((data) => {

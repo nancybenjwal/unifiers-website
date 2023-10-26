@@ -17,8 +17,8 @@ import defaultImg from "../images/team/Default.png";
 import rachna from "../images/team/rachna.png";
 import amit from "../images/team/amit.png";
 import dharmendra from "../images/team/dharmendra.png";
-import sidharth from "../images/team/sidharth.jpg";
-import Shilpi from "../images/team/Shilpi.jpg";
+import sidharth from "../images/team/sidharth.png";
+import Shilpi from "../images/team/Shilpi.png";
 import puneeta from "../images/team/puneeta.jpg";
 
 export const teamImplementation = [
@@ -134,7 +134,7 @@ export const teamStrategic = [
   {
     name: "Ms. Shilpi Banerjee",
     img: Shilpi,
-    designation: "",
+    designation: "Content and Ops. Lead-North India",
     social_media_icons:
       "https://www.linkedin.com/in/shilpi-banerjee-09560117b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
